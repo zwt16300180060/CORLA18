@@ -56,7 +56,6 @@ def create_modulus(n1, n2, n_w2, n_l2, N1, V_wl, gamma):
             2*Un*np.log(1 + 3*V_wl*delta) + 2*n1*np.log(1 + V_wl*delta/(2*N1*gamma))
 
 
-
 def maximize_fisher_combined_pvalue(N_w1, N_l1, N1, N_w2, N_l2, N2,
     pvalue_funs, stepsize=0.05, modulus=None, alpha=0.05, feasible_lambda_range=None):
     """
